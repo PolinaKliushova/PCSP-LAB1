@@ -96,6 +96,7 @@ a {
 
   /* Стили для изображений в каталоге */
 .img-fluid {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,15 +115,15 @@ a {
 .custom-list {
     list-style: none; /* Убираем маркеры списка */
     padding: 0; /* Убираем отступы */
-  }
-  
-  .custom-list li {
+}
+
+.custom-list li {
     color:rgb(118, 53, 114);
     margin-left: 20px; /* Отступ слева для текста списка */
     line-height: 24px; /* Высота строки для текста списка */
-  }
-  
-  .custom-list li::before {
+}
+
+.custom-list li::before {
     content: ""; /* Содержимое пустое, чтобы не создавать лишний текст */
     display: inline-block; /* Для корректного позиционирования */
     width: 16px; /* Ширина изображения-маркера */
@@ -131,4 +132,4 @@ a {
     background-size: cover; /* Масштабируем изображение, чтобы оно заполняло блок */
     margin-right: 10px; /* Отступ справа от изображения-маркера */
     vertical-align: middle; /* Выравниваем изображение по вертикали */
-  }
+}
